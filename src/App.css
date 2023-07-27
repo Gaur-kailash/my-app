@@ -1,0 +1,48 @@
+.body{
+  background-color: white;
+}
+.flex{ 
+  display: flex;
+}
+.nav{
+  background-color: rgb(209, 208, 208);
+  /* color: white; */
+  gap: 1em;
+  align-items: center;
+  padding: 0.6em 2em;
+  font-size: 1.2em;
+  justify-content: space-between;
+}
+.links{
+  text-decoration: none;
+  color: black;
+  margin: 0 5px;
+}
+.nav i {
+  cursor: pointer;
+}
+form, .container {
+  margin: auto;
+  width: 60%;
+}
+textarea{
+  width: 100%;
+}
+form h2{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.btn{
+  margin: 4px 4px;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.435);
+  background-color: rgb(56, 56, 255);
+  color: white;
+}
+.about{
+  text-align: center;
+}
